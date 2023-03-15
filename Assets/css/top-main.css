@@ -10,7 +10,7 @@
 
 .top-main::before {
   content: "";
-  background-image: url("/Assets/img/top-main-background.jpg");
+  background-image: url("top-main-background.jpg");
   background-size: cover;
   position: absolute;
   top: 0px;
