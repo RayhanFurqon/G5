@@ -1,13 +1,6 @@
-/* *{
-    box-sizing: border-box;
-    
-} */
-
 body{
     margin: 0;
     font-family: sans-serif;
-    /* background-color: black; */
-    /* color: white; */
 }
 
 a{
@@ -21,10 +14,7 @@ a{
     max-width: 330px;
     margin: 0 auto;
     text-align: center;
-    /* background-color:black; */
     color:white;
-    /* display: flex; */
-    /* display: inline-block; */
 }
 
 .form h1{
