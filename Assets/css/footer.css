@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  } */
+
+.footer{
+    border-top: 2px solid whitesmoke;
+    font-family:'Sans serif';
+    background-color:black;
+    height: 100px;
+    width:100%;
+    display: block;
+}
+.footer h3{
+    color:red;
+    font-size:xx-large;
+    padding-left: 20px;
+  }
+.footer h4{
+    color:white;
+    font-size: small;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.footer i{
+    color:white;
+    font-size: small;
+    padding-right:15px;
+    padding-top:15px;
+    padding-left: 20px;
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .footer h3, h4, i{
+        text-align: center;
+    }
+}

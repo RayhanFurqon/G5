@@ -1,30 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="Assets/css/learn4self.css">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learn4self</title>
-</head>
-<body>
-  <div class="header-container">
-  <div>Learn4Self</div>
-  <ul>
-    <li><a href="#">Login</a></li>
-    <li><a href="#">Sign up</a></li>
-  </ul>
-  </div>
-  <div class="content-container" style="background-image: url(Assets/img/akskadi.jpg);">
-    <div >content</div>
-  </div>
-  <div class="footer-container">
-    <div><p>Visit me on</p>></div>
-  <div class="logos">
-    <span>Logo 1 aaaaaaa</span>
-    <span>Logo 2 bbbbbb</span>
-    <span>Logo 3 cccccc</span>
-  </div>
-  </div>
-</body>
+  <head>
+    <link rel="stylesheet" href="Assets/css/botmain.css" />
+    <link rel="stylesheet" href="Assets/css/form-css.css" />
+    <link rel="stylesheet" href="Assets/css/footer.css" />
+    <link rel="stylesheet" href="Assets/css/header.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <title>Nonton.com</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left" id="top">Nonton.com</div>
+        <div class="header-right">
+          <div class="btn-wrapper">
+            <a href="#form-signup" class="btn-signup">Sign up</a>
+          </div>
+          <a href="#" class="login">Log in</a>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <div class="top-main"></div>
+      <div class="bot-main">
+        <h1 class="titletext">Movies</h1>
+        <div class="items">
+          <div class="item">
+            <img src="Assets/img/batman.jpg" alt="Batman" />
+            <p>Batman</p>
+          </div>
+          <div class="item">
+            <img src="Assets/img/pib.jpg" alt="Puss in Boots" />
+            <p>Puss in Boots</p>
+          </div>
+          <div class="item">
+            <img src="Assets/img/endgame.jpg" alt="Avenger Endgame" />
+            <p>Avenger Endgame</p>
+          </div>
+          <div class="item">
+            <img src="Assets/img/suzume.jpeg" alt="Suzume" />
+            <p>suzume</p>
+          </div>
+        </div>
+      </div>
+      <div class="form" id="form-signup">
+        <h1>Sign Up</h1>
+        <input type="text" placeholder="Enter your email" />
+        <input type="password" placeholder="Enter your password" />
+        <p class="sign-up">
+          * I agree to the <a href="#">Terms & Conditions</a> and
+          <a href="#">Privacy Policy</a>
+        </p>
+        <button>Get Started >></button>
+        <p class="log-in">Already have an account? <a href="#">Log in</a></p>
+        <a class="to-top" href="#top">Back to Top</a>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <h3>nonton.com</h3>
+        <h4>
+          <span class="fa-regular fa-copyright"></span> 2023 | G5 | All
+          materials and contents for Progate HTML & CSS Team Project
+        </h4>
+        <i class="fa-solid fa-phone"></i>
+        <i class="fa-solid fa-envelope-open-text"></i>
+        <i class="fa-sharp fa-solid fa-building"></i>
+        <i class="fa-solid fa-location-dot"></i>
+      </div>
+    </footer>
+  </body>
 </html>
