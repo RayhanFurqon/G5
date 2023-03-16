@@ -63,3 +63,16 @@ header {
   cursor: pointer;
   transition: all 0.5s;
 }
+
+
+@media (max-width:445px) {
+  .header-right {
+    display: none;
+  }
+
+  .header-left {
+    text-align: center;
+    /* clear: left; */
+    float: none;
+  }
+}
