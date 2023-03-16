@@ -101,7 +101,7 @@ header {
   }
 }
 
-@media (max-width:1060px){
+@media (max-width:760px){
   .search-box{
     display: none;
   }
