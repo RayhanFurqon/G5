@@ -2,6 +2,10 @@ header {
     height: 80px;
     width: 100%;
     background-color:#E50914 ;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 0.9;
   }
 .container-header {
     background-color:black;
@@ -27,6 +31,7 @@ header {
     margin: 0;  
     padding: 30px;
 }
+
 .login {
     color:white;
     font-size: 15px;
@@ -64,7 +69,6 @@ header {
   transition: all 0.5s;
 }
 
-
 @media (max-width:445px) {
   .header-right {
     display: none;
@@ -72,7 +76,6 @@ header {
 
   .header-left {
     text-align: center;
-    /* clear: left; */
     float: none;
   }
 }

@@ -78,14 +78,14 @@
 }
 
 /* responsive */
-@media (max-width: 767px){
+@media (max-width: 1060px){
     .footer-col{
         width: 50%;
         padding:0 15px;
         margin-bottom: 30px;
     }
 }
-@media (max-width: 574px){
+@media (max-width: 670px){
     .footer-col{
         width: 100%;
     }
